@@ -1,0 +1,640 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriana Guerrero | Digital Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: "#100d16",
+                        panel: "#191421",
+                        purple: {
+                            light: "#c4a1ff",
+                            DEFAULT: "#a855f7",
+                            dark: "#7e22ce"
+                        }
+                    },
+                    fontFamily: {
+                        sans: ["DM Sans", "sans-serif"],
+                        display: ["Playfair Display", "serif"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-dark text-white font-sans">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-dark/95 border-b border-purple-900/30">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+            <a href="#home" class="font-display text-2xl italic text-purple-light">
+                AG.
+            </a>
+
+            <div class="hidden md:flex gap-8 text-sm text-gray-300">
+                <a href="#home" class="hover:text-purple-light transition">Home</a>
+                <a href="#about" class="hover:text-purple-light transition">About me</a>
+                <a href="#skills" class="hover:text-purple-light transition">Skills</a>
+                <a href="#projects" class="hover:text-purple-light transition">Projects</a>
+                <a href="#certificates" class="hover:text-purple-light transition">Certificates</a>
+                <a href="#contact" class="hover:text-purple-light transition">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="min-h-screen flex items-center pt-28 pb-20 px-6">
+        <div class="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+
+            <div>
+                <p class="text-purple-light tracking-[0.3em] uppercase text-sm mb-6">
+                    Digital Portfolio · 2024 — 2026
+                </p>
+
+                <!-- NAME DESIGN -->
+                <h1 class="leading-tight mb-6">
+                    <span class="block font-display italic text-6xl md:text-8xl text-purple-light">
+                        Adriana 
+                    </span>
+
+                    <span class="block text-5xl md:text-7xl font-bold tracking-[0.12em] uppercase mt-2">
+                        Guerrero 
+                    </span>
+                </h1>
+
+
+<!-- PROFESSIONAL TITLE -->
+<p class="text-purple-light text-sm md:text-base tracking-widest uppercase mt-4 mb-6">
+   Future Food Engineer | Lifelong Learner
+</p>
+
+                <div class="w-20 h-1 bg-purple-500 mb-8"></div>
+
+                <p class="text-gray-300 text-lg leading-relaxed max-w-xl">
+                    Student at ¡Supérate! Hilasal. This portfolio brings together
+                    the projects, skills and experiences I have developed
+                    throughout my three years in the program.
+                </p>
+
+                <div class="flex flex-wrap gap-4 mt-9">
+                    <a href="#projects"
+                       class="bg-purple-600 hover:bg-purple-700 px-7 py-3 rounded-lg font-semibold transition">
+                        View my projects
+                    </a>
+
+                    <a href="#contact"
+                       class="border border-purple-400 text-purple-light hover:bg-purple-500/10 px-7 py-3 rounded-lg transition">
+                        Contact me
+                    </a>
+                </div>
+            </div>
+
+            <!-- PROFILE IMAGE -->
+            <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-purple-400/60 overflow-hidden">
+                <img src="Adriana.jpeg"
+                     alt="Adriana Guerrero"
+                     class="w-full h-full object-cover">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="py-24 px-6 bg-panel/50">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="mb-14">
+                <p class="text-purple-light uppercase tracking-[0.25em] text-sm mb-3">
+                    A little about me
+                </p>
+
+                <h2 class="font-display text-4xl md:text-5xl">
+                    About <span class="italic text-purple-light">Me</span>
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+
+                <div>
+                    <p class="text-gray-300 leading-relaxed text-lg mb-6">
+                        I am a student who enjoys learning new things, taking on challenges and finding ways to improve. During my time at ¡Supérate! Hilasal, I have developed technical skills and learned the importance of responsibility, teamwork and commitment.
+                    </p>
+
+                    <p class="text-gray-300 leading-relaxed text-lg">
+                        Over these three years, I’ve grown both personally and academically. I’ve become more confident, independent and willing to step out of my comfort zone. This portfolio shows some of the projects, achievements and experiences that have shaped my journey at ¡Supérate! Hilasal.
+                    </p>
+                </div>
+
+                <!-- INFORMATION CARDS -->
+                <div class="grid grid-cols-2 gap-4">
+
+                    <div class="bg-panel border border-purple-900/40 p-6 rounded-xl">
+                        <i class="fa-solid fa-graduation-cap text-purple-light text-2xl mb-4"></i>
+                        <h3 class="font-semibold mb-2">Education</h3>
+                        <p class="text-sm text-gray-400">
+                            Learning and growing at ¡Supérate! Hilasal
+                        </p>
+                    </div>
+
+                    <div class="bg-panel border border-purple-900/40 p-6 rounded-xl">
+                        <i class="fa-solid fa-language text-purple-light text-2xl mb-4"></i>
+                        <h3 class="font-semibold mb-2">Languages</h3>
+                        <p class="text-sm text-gray-400">
+                            Spanish and English
+                        </p>
+                    </div>
+
+                    <div class="bg-panel border border-purple-900/40 p-6 rounded-xl">
+                        <i class="fa-solid fa-people-group text-purple-light text-2xl mb-4"></i>
+                        <h3 class="font-semibold mb-2">Teamwork</h3>
+                        <p class="text-sm text-gray-400">
+                            Sharing ideas and learning from others
+                        </p>
+                    </div>
+
+                    <div class="bg-panel border border-purple-900/40 p-6 rounded-xl">
+                        <i class="fa-solid fa-seedling text-purple-light text-2xl mb-4"></i>
+                        <h3 class="font-semibold mb-2">Personal Growth</h3>
+                        <p class="text-sm text-gray-400">
+                            Becoming more confident with every experience
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="mb-14">
+                <p class="text-purple-light uppercase tracking-[0.25em] text-sm mb-3">
+                    What I have learned
+                </p>
+
+                <h2 class="font-display text-4xl md:text-5xl">
+                    Technical <span class="italic text-purple-light">Skills</span>
+                </h2>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <div class="bg-panel border border-purple-900/40 rounded-xl p-7">
+                    <i class="fa-solid fa-code text-purple-light text-3xl mb-5"></i>
+                    <h3 class="text-xl font-semibold mb-4">Frontend</h3>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Tailwind CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="bg-panel border border-purple-900/40 rounded-xl p-7">
+                    <i class="fa-solid fa-terminal text-purple-light text-3xl mb-5"></i>
+                    <h3 class="text-xl font-semibold mb-4">Programming</h3>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li>Python basic</li>
+                        <li>Basic programming logic</li>
+                        <li>Problem solving</li>
+                    </ul>
+                </div>
+
+                <div class="bg-panel border border-purple-900/40 rounded-xl p-7">
+                    <i class="fa-solid fa-database text-purple-light text-3xl mb-5"></i>
+                    <h3 class="text-xl font-semibold mb-4">Databases</h3>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li>SQL</li>
+                        <li>Database concepts</li>
+                    </ul>
+                </div>
+
+                <div class="bg-panel border border-purple-900/40 rounded-xl p-7">
+                    <i class="fa-solid fa-laptop text-purple-light text-3xl mb-5"></i>
+                    <h3 class="text-xl font-semibold mb-4">Tools</h3>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li>Microsoft Excel</li>
+                        <li>Power BI</li>
+                        <li>GitHub</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-24 px-6 bg-panel/50">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="mb-14">
+                <p class="text-purple-light uppercase tracking-[0.25em] text-sm mb-3">
+                    My work through the years
+                </p>
+
+                <h2 class="font-display text-4xl md:text-5xl">
+                    Featured <span class="italic text-purple-light">Projects</span>
+                </h2>
+
+                <p class="text-gray-400 mt-4 max-w-2xl">
+                    Three projects that represent what I have worked on
+                    and learned during each year of the program.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- FIRST YEAR -->
+                <article class="bg-panel border border-purple-900/40 rounded-xl overflow-hidden hover:border-purple-500 transition">
+
+                    <div class="h-48 bg-dark flex items-center justify-center p-6">
+                        <img src="circle vibe.png"
+                             alt="Circle Vibe Logo"
+                             class="max-h-full max-w-full object-contain">
+                    </div>
+
+                    <div class="p-7">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            First Year 2024
+                        </p>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            CIRCLEVIBE
+                        </h3>
+
+                        <p class="text-gray-400 text-sm leading-relaxed mb-5">
+                            Circle Vibe is an app designed to connect people without formal degrees or professional titles, such as plumbers and carpenters, with job opportunities. It also allows users to report community issues, which are addressed through partnerships with external companies.
+                        </p>
+
+                        <div class="border-t border-purple-900/40 pt-4">
+                            <p class="text-xs text-purple-light mb-2">
+                                MY CONTRIBUTION
+                            </p>
+
+                            <p class="text-sm text-gray-400 mb-5">
+                                I was part of developing the initial idea, designing the app in Figma, and transferring the design to Power Apps.
+                            </p>
+
+                            <a href="https://www.figma.com/design/wVw0u9p9m2gonB3m33tIKm/APP-Movile?node-id=0-1&t=wnqVpBIbGPJEOBh7-1"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="inline-flex items-center gap-2 text-purple-light hover:text-white transition text-sm font-semibold">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- SECOND YEAR -->
+                <article class="bg-panel border border-purple-900/40 rounded-xl overflow-hidden hover:border-purple-500 transition">
+
+                    <div class="h-48 bg-dark flex items-center justify-center p-6">
+                        <img src="havenup!.png"
+                             alt="Havenup Logo"
+                             class="max-h-full max-w-full object-contain">
+                    </div>
+
+                    <div class="p-7">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            Second Year  2025
+                        </p>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            HAVENUP!
+                        </h3>
+
+                        <p class="text-gray-400 text-sm leading-relaxed mb-5">
+                            HavenUp is a real estate platform that connects buyers and sellers, simplifying property transactions through AI recommendations, 3D models, virtual tours, and secure online tools.
+                        </p>
+
+                        <div class="border-t border-purple-900/40 pt-4">
+                            <p class="text-xs text-purple-light mb-2">
+                                MY CONTRIBUTION
+                            </p>
+
+                            <p class="text-sm text-gray-400 mb-5">
+                                I contributed to designing the platform in Figma and developing its frontend, helping create the visual interface and user experience.
+                            </p>
+
+                            <a href="https://haven-up-website.vercel.app/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="inline-flex items-center gap-2 text-purple-light hover:text-white transition text-sm font-semibold">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- THIRD YEAR -->
+                <article class="bg-panel border border-purple-900/40 rounded-xl overflow-hidden hover:border-purple-500 transition">
+
+                    <div class="h-48 bg-dark flex items-center justify-center p-6">
+                        <img src="Finans.png"
+                             alt="Finans Logo"
+                             class="max-h-full max-w-full object-contain">
+                    </div>
+
+                    <div class="p-7">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            Third Year 2026
+                        </p>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            FINANS
+                        </h3>
+
+                        <p class="text-gray-400 text-sm leading-relaxed mb-5">
+                            Finans is an app designed to help small businesses manage sales, expenses, and inventory. It uses AI and OCR technology to simplify financial management, generate reports, and support better business decisions.
+                        </p>
+
+                        <div class="border-t border-purple-900/40 pt-4">
+                            <p class="text-xs text-purple-light mb-2">
+                                MY CONTRIBUTION
+                            </p>
+
+                            <p class="text-sm text-gray-400 mb-5">
+                                I participated in developing Finans's initial concept and contributed to the app's design, sharing ideas about its visual appearance and layout.
+                            </p>
+
+                            <a href="https://finans-website-1.onrender.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="inline-flex items-center gap-2 text-purple-light hover:text-white transition text-sm font-semibold">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES AND CERTIFICATIONS -->
+    <section id="certificates" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="mb-14">
+                <p class="text-purple-light uppercase tracking-[0.25em] text-sm mb-3">
+                    Learning and achievements
+                </p>
+
+                <h2 class="font-display text-4xl md:text-5xl">
+                    Courses & <span class="italic text-purple-light">Certifications</span>
+                </h2>
+            </div>
+
+            <!-- PLATZI COURSES -->
+            <div class="mb-16">
+                <div class="flex items-center gap-4 mb-7">
+
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center">
+                        <i class="fa-solid fa-book-open text-purple-light text-xl"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-semibold">Platzi Courses</h3>
+                        <p class="text-gray-400 text-sm">Three courses completed</p>
+                    </div>
+
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-5">
+
+                    <!-- COURSE 01 -->
+                    <div class="bg-panel border border-purple-900/40 rounded-xl p-6">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            Course 01
+                        </p>
+
+                        <h4 class="text-lg font-semibold mb-3">
+                            Basic Excel Course.
+                        </h4>
+
+                        <a href="curso de excel basico. Adriana Guerrero (1)_page-0001 (1).jpg"
+                           target="_blank"
+                           class="inline-flex items-center gap-2 text-purple-light text-sm mt-5 hover:text-white transition">
+                            <i class="fa-solid fa-award"></i>
+                            View Certificate
+                        </a>
+
+                        <p class="text-gray-500 text-xs mt-5">
+                            Platform: Platzi
+                        </p>
+                    </div>
+
+                    <!-- COURSE 02 -->
+                    <div class="bg-panel border border-purple-900/40 rounded-xl p-6">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            Course 02
+                        </p>
+
+                        <h4 class="text-lg font-semibold mb-3">
+                            PowerPoint Course.
+                        </h4>
+
+                        <a href="Adriana Guerrero curso de powerpoint (1)_page-0001.jpg"
+                           target="_blank"
+                           class="inline-flex items-center gap-2 text-purple-light text-sm mt-5 hover:text-white transition">
+                            <i class="fa-solid fa-award"></i>
+                            View Certificate
+                        </a>
+
+                        <p class="text-gray-500 text-xs mt-5">
+                            Platform: Platzi
+                        </p>
+                    </div>
+
+                    <!-- COURSE 03 -->
+                    <div class="bg-panel border border-purple-900/40 rounded-xl p-6">
+                        <p class="text-purple-light text-xs uppercase tracking-widest mb-3">
+                            Course 03
+                        </p>
+
+                        <h4 class="text-lg font-semibold mb-3">
+                           CapCut Course.
+                        </h4>
+
+                        <a href="certificado-35e16a89-87d2-49a8-bb8d-1c9c544789d5-f144ede2-0aca-4bb8-9e74-0cf6b466ccfd (1)_page-0001.jpg"
+                           target="_blank"
+                           class="inline-flex items-center gap-2 text-purple-light text-sm mt-5 hover:text-white transition">
+                            <i class="fa-solid fa-award"></i>
+                            View Certificate
+                        </a>
+
+                        <p class="text-gray-500 text-xs mt-5">
+                            Platform: Platzi
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- EXCEL CERTIFICATIONS -->
+            <div>
+                <div class="flex items-center gap-4 mb-7">
+
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center">
+                        <i class="fa-solid fa-award text-purple-light text-xl"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-semibold">Certifications</h3>
+                        <p class="text-gray-400 text-sm">Microsoft Excel</p>
+                    </div>
+
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-5">
+
+                    <!-- EXCEL ASSOCIATE -->
+                    <div class="bg-panel border border-purple-900/40 rounded-xl p-7 flex gap-5 items-start">
+                        <i class="fa-solid fa-file-excel text-green-500 text-3xl"></i>
+
+                        <div>
+                            <p class="text-purple-light text-xs uppercase tracking-widest mb-2">
+                                Certification 01
+                            </p>
+
+                            <h4 class="text-xl font-semibold mb-2">
+                                Microsoft Excel
+                            </h4>
+
+                            <a href="Excel Associate_page-0001.jpg"
+                               target="_blank"
+                               class="inline-flex items-center gap-2 text-purple-light text-sm mt-5 hover:text-white transition">
+                                <i class="fa-solid fa-award"></i>
+                                View Certificate
+                            </a>
+
+                            <p class="text-gray-400 text-sm">
+                                Demonstrates the ability to use Excel to organize data, create spreadsheets, apply formulas, and manage information efficiently.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- EXCEL EXPERT -->
+                    <div class="bg-panel border border-purple-900/40 rounded-xl p-7 flex gap-5 items-start">
+                        <i class="fa-solid fa-file-circle-check text-green-500 text-3xl"></i>
+
+                        <div>
+                            <p class="text-purple-light text-xs uppercase tracking-widest mb-2">
+                                Certification 02
+                            </p>
+
+                            <h4 class="text-xl font-semibold mb-2">
+                                Microsoft Excel Expert
+                            </h4>
+
+                            <a href="Excel Expert_page-0001.jpg"
+                               target="_blank"
+                               class="inline-flex items-center gap-2 text-purple-light text-sm mt-5 hover:text-white transition">
+                                <i class="fa-solid fa-award"></i>
+                                View Certificate
+                            </a>
+
+                            <p class="text-gray-400 text-sm">
+                                Demonstrates advanced Excel skills, including complex formulas, data analysis, advanced functions, and spreadsheet management.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 px-6 bg-panel/50">
+        <div class="max-w-5xl mx-auto text-center">
+
+            <p class="text-purple-light uppercase tracking-[0.25em] text-sm mb-3">
+                Let's connect
+            </p>
+
+            <h2 class="font-display text-4xl md:text-5xl mb-6">
+                Get in <span class="italic text-purple-light">Touch</span>
+            </h2>
+
+            <p class="text-gray-400 max-w-xl mx-auto mb-10 leading-relaxed">
+                Thank you for taking the time to explore my portfolio.
+                You can find me through the following platforms.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-5">
+
+              <a href="https://mail.google.com/mail/?view=cm&to=adrianavaleriaguerrero@gmail.com"
+   target="_blank"
+   class="border border-purple-900/50 bg-panel px-6 py-4 rounded-xl hover:border-purple-500 transition">
+    <i class="fa-regular fa-envelope text-purple-light mr-2"></i>
+    Email
+</a>
+
+                <a href="https://www.linkedin.com/in/adriana-guerrero123/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="border border-purple-900/50 bg-panel px-6 py-4 rounded-xl hover:border-purple-500 transition">
+                    <i class="fa-brands fa-linkedin text-purple-light mr-2"></i>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/Valeriaguerrero16"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="border border-purple-900/50 bg-panel px-6 py-4 rounded-xl hover:border-purple-500 transition">
+                    <i class="fa-brands fa-github text-purple-light mr-2"></i>
+                    GitHub
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-purple-900/30 py-7 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+
+            <p class="font-display italic text-purple-light text-xl">
+                Adriana Guerrero
+            </p>
+
+            <p class="text-gray-500 text-sm text-center">
+                Digital Portfolio · ¡Supérate! Hilasal · 2026
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
